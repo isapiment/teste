@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\1-teste\1-teste\bin\Debug\1-teste.exe.config
+C:\Users\Lenovo\source\repos\1-teste\1-teste\bin\Debug\1-teste.exe
+C:\Users\Lenovo\source\repos\1-teste\1-teste\bin\Debug\1-teste.pdb
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.exe
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\1-teste.pdb
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Pagina2.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Pagina1.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.tx_respostidad.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Pagina4.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.CadastroShow.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Form_Shows.resources
+C:\Users\Lenovo\source\repos\1-teste\1-teste\obj\Debug\_1_teste.Acesso.resources
