@@ -30,6 +30,7 @@ namespace _1_teste
 
         private void button3_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 string nome = tx_nome.Text;
@@ -48,8 +49,8 @@ namespace _1_teste
 
                 if (resultado == true && result == true)
                 {
-                   
-                        ingresso.Salvar();
+                    button4.Visible = true;
+                    ingresso.Salvar();
                 }
                 
                 else if (resultado == false)
@@ -60,8 +61,8 @@ namespace _1_teste
                 }
                 else if (result == false)
                 {
-                    string resulinva = tx_idade.Text;
-                    tx_idade.Text = "Idade Inválida!";
+                    string resulinva = tx_idadein.Text;
+                    tx_idadein.Text = "Idade Inválida!";
                 }
 
                 listname.Add(ingresso);
@@ -125,12 +126,13 @@ namespace _1_teste
         {
             tx_nome.Clear();
             tx_cpf.Clear();
-            tx_idade.Clear();
+            tx_idadein.Clear();
             tx_numerocont.Clear();
             tx_valor.Clear();
             tx_formapagamento.Text = " ";
             tx_quant.Text = " ";
             tx_ingresso.Text = " ";
+            tx_cpfvalid.Text = " ";
             
         }
     }

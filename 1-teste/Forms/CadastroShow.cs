@@ -15,6 +15,7 @@ namespace _1_teste
         public CadastroShow()
         {
             InitializeComponent();
+
         }
 
         private void label1_Click(object sender, EventArgs e)

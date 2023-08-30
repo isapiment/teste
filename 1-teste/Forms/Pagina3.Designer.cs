@@ -42,7 +42,7 @@
             this.tx_ingresso = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tx_quant = new System.Windows.Forms.NumericUpDown();
-            this.tx_idade = new System.Windows.Forms.TextBox();
+            this.tx_idadein = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tx_valor = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -188,16 +188,16 @@
             this.tx_quant.Size = new System.Drawing.Size(120, 22);
             this.tx_quant.TabIndex = 22;
             // 
-            // tx_idade
+            // tx_idadein
             // 
-            this.tx_idade.BackColor = System.Drawing.Color.Black;
-            this.tx_idade.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tx_idade.Enabled = false;
-            this.tx_idade.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tx_idade.Location = new System.Drawing.Point(434, 208);
-            this.tx_idade.Name = "tx_idade";
-            this.tx_idade.Size = new System.Drawing.Size(366, 15);
-            this.tx_idade.TabIndex = 23;
+            this.tx_idadein.BackColor = System.Drawing.Color.Black;
+            this.tx_idadein.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tx_idadein.Enabled = false;
+            this.tx_idadein.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.tx_idadein.Location = new System.Drawing.Point(434, 208);
+            this.tx_idadein.Name = "tx_idadein";
+            this.tx_idadein.Size = new System.Drawing.Size(366, 15);
+            this.tx_idadein.TabIndex = 23;
             // 
             // label8
             // 
@@ -224,7 +224,7 @@
             this.button2.BackColor = System.Drawing.Color.BlueViolet;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.GhostWhite;
-            this.button2.Location = new System.Drawing.Point(12, 400);
+            this.button2.Location = new System.Drawing.Point(24, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 39);
             this.button2.TabIndex = 26;
@@ -237,7 +237,7 @@
             this.button3.BackColor = System.Drawing.Color.BlueViolet;
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.GhostWhite;
-            this.button3.Location = new System.Drawing.Point(248, 400);
+            this.button3.Location = new System.Drawing.Point(259, 434);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(125, 38);
             this.button3.TabIndex = 27;
@@ -250,12 +250,13 @@
             this.button4.BackColor = System.Drawing.Color.BlueViolet;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.GhostWhite;
-            this.button4.Location = new System.Drawing.Point(661, 400);
+            this.button4.Location = new System.Drawing.Point(690, 434);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(110, 39);
             this.button4.TabIndex = 28;
             this.button4.Text = "Proxímo";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label9
@@ -288,7 +289,7 @@
             this.limpar.BackColor = System.Drawing.Color.BlueViolet;
             this.limpar.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.limpar.ForeColor = System.Drawing.Color.GhostWhite;
-            this.limpar.Location = new System.Drawing.Point(407, 400);
+            this.limpar.Location = new System.Drawing.Point(418, 434);
             this.limpar.Name = "limpar";
             this.limpar.Size = new System.Drawing.Size(112, 38);
             this.limpar.TabIndex = 31;
@@ -312,7 +313,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(842, 450);
+            this.ClientSize = new System.Drawing.Size(856, 485);
             this.Controls.Add(this.tx_cpfvalid);
             this.Controls.Add(this.limpar);
             this.Controls.Add(this.tx_formapagamento);
@@ -322,7 +323,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.tx_valor);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.tx_idade);
+            this.Controls.Add(this.tx_idadein);
             this.Controls.Add(this.tx_quant);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tx_ingresso);
@@ -363,7 +364,7 @@
         private System.Windows.Forms.ComboBox tx_ingresso;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.NumericUpDown tx_quant;
-        private System.Windows.Forms.TextBox tx_idade;
+        private System.Windows.Forms.TextBox tx_idadein;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox tx_valor;
         private System.Windows.Forms.Button button2;

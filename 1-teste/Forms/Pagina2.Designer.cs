@@ -52,6 +52,7 @@
             this.label22 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -59,7 +60,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.BlueViolet;
-            this.label1.Location = new System.Drawing.Point(30, 387);
+            this.label1.Location = new System.Drawing.Point(313, 389);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 49);
             this.label1.TabIndex = 0;
@@ -319,11 +320,24 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Niagara Engraved", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.label23.Location = new System.Drawing.Point(262, 1);
+            this.label23.Location = new System.Drawing.Point(260, 1);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(223, 85);
             this.label23.TabIndex = 23;
             this.label23.Text = "Destaques";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.BlueViolet;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.GhostWhite;
+            this.button2.Location = new System.Drawing.Point(39, 397);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 41);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "Voltar";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Pagina2
             // 
@@ -331,6 +345,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(782, 456);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label22);
@@ -390,5 +405,6 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -60,5 +60,13 @@ namespace _1_teste
             pagina3.ShowDialog();
             this.Visible = true;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Pagina1 pagina1 = new Pagina1();
+            this.Visible = false;
+            pagina1.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
